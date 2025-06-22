@@ -1,347 +1,599 @@
 <!DOCTYPE HTML>
 <html lang="en-US">
-    <head>
-		<meta charset="UTF-8">
-		<meta http-equiv="x-ua-compatible" content="ie=edge">
-		<title>Smartdev - Medical Responsive Website Template</title>
-		<meta name="description" content="">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<!-- Favicon Icon -->
-        <link rel="icon"  type="image/png" href="assets/images/favicon.png">		
-        <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css"/>
-        <link rel="stylesheet" type="text/css" href="venobox/venobox.css"/>
-        <link rel="stylesheet" type="text/css" href="assets/css/plugin_theme_css.css"/>
-        <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>        
-		<link rel="stylesheet" type="text/css" href="style.css"/>
-		<link rel="stylesheet" type="text/css" href="assets/css/responsive.css"/>
-		<!-- modernizr js -->	
-        <script src="assets/js/vendor/modernizr-2.8.3.min.js"></script>		
-		
-    </head>
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title>Smartdev - Medical Responsive Website Template</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Favicon Icon -->
+	<link rel="icon" type="image/png" href="assets/images/favicon.png">
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css" />
+	<link rel="stylesheet" type="text/css" href="venobox/venobox.css" />
+	<link rel="stylesheet" type="text/css" href="assets/css/plugin_theme_css.css" />
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	<link rel="stylesheet" type="text/css" href="assets/css/responsive.css" />
+	<!-- modernizr js -->
+	<script src="assets/js/vendor/modernizr-2.8.3.min.js"></script>
+	<style>
+		.post_team10_idteam .witr_team_content h5 {
+			text-align: center;
+		}
+
+		.post_team10_idteam .witr_team_content div {
+			margin: 5px 0;
+			text-align: center;
+		}
+
+		.breadcumb-inner li {
+			text-align: left;
+			display: block;
+		}
+
+		.smartdev_team3_area .team-part {
+			display: flex;
+			padding: 8px;
+		}
+
+		.post_team10_area .witr_team_section {
+			margin-right: 10px;
+			height: 100px;
+		}
+
+		.post_team10_area .witr_team_section img {
+			height: 100px;
+		}
+
+		.smartdev_team3_area .post_team10_idteam .witr_team_content {
+			padding: 0;
+			flex: 1;
+			line-height: 1;
+			text-align: left;
+		}
+
+		.smartdev_team3_area .post_team10_idteam .witr_team_content h5 a {
+			font-size: 20px;
+		}
+
+		.smartdev_team3_area .post_team10_idteam .witr_team_content span {
+			color: #222;
+			font-size: 14px;
+		}
+
+		/* 悬浮按钮容器 */
+		.contact-btn-container {
+			position: fixed;
+			right: 5%;
+			bottom: 7%;
+
+			z-index: 1000;
+		}
+
+		/* 主按钮样式 */
+		.contact-btn {
+			display: block;
+			width: 50px;
+			height: 50px;
+			background: #4285f4;
+			color: white;
+			border-radius: 50%;
+			text-align: center;
+			line-height: 50px;
+			font-size: 20px;
+			box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+			transition: all 0.3s;
+			text-decoration: none;
+		}
+
+		.contact-btn:hover {
+			background: #3367d6;
+			transform: scale(1.1);
+		}
+	</style>
+
+</head>
+
 <body>
-<div class="em40_header_area_main ">
-	  <div class="tx_top2_relative">
-		<div class="">
-			<div class="tx_relative_m">
-				<div class="">  
-					<div class="mainmenu_width_tx  ">
-						<div class="smartdev-main-menu one_page hidden-xs hidden-sm witr_h_h10">
-							<div class="smartdev_nav_area scroll_fixed postfix">
-								<div class="container">
-									<div class="row logo-left">				
-										<!-- LOGO -->
-										<div class="col-md-3 col-sm-3 col-xs-4">
-											<div class="logo">
-												<a class="main_sticky_main_l" href="index.html" title="smartdev">
-													<img src="assets/images/logo.png" alt="smartdev">
-												</a>
-												<a class="main_sticky_l" href="index.html" title="smartdev">
-													<img src="assets/images/logo2.png" alt="smartdev">
-												</a>
-											</div>	  
-										</div>
-										<div class="col-md-9 col-sm-9 col-xs-8">
-											<nav class="smartdev_menu">					
-												<ul class="sub-menu">
-													<li class="menu-item-has-children">
-														<a href="index.html">首页</a>
-														<!-- <ul class="sub-menu">
+	<div class="em40_header_area_main ">
+		<div class="tx_top2_relative">
+			<div class="">
+				<div class="tx_relative_m">
+					<div class="">
+						<div class="mainmenu_width_tx  ">
+							<div class="smartdev-main-menu one_page hidden-xs hidden-sm witr_h_h10">
+								<div class="smartdev_nav_area scroll_fixed postfix">
+									<div class="container">
+										<div class="row logo-left">
+											<!-- LOGO -->
+											<div class="col-md-3 col-sm-3 col-xs-4">
+												<div class="logo">
+													<a class="main_sticky_main_l" href="index.html" title="smartdev">
+														<img src="assets/images/logo.png" alt="smartdev">
+													</a>
+													<a class="main_sticky_l" href="index.html" title="smartdev">
+														<img src="assets/images/logo2.png" alt="smartdev">
+													</a>
+												</div>
+											</div>
+											<div class="col-md-9 col-sm-9 col-xs-8">
+												<nav class="smartdev_menu">
+													<ul class="sub-menu">
+														<li class="menu-item-has-children">
+															<a href="index.html">首页</a>
+															<!-- <ul class="sub-menu">
 															<li><a href="index.html">Home Page</a></li>
 															<li><a href="index-2.html">Landing Page</a></li>
 															<li><a href="index-3.html">Home Banner Page</a></li>
 														</ul> -->
-													</li>
-												</ul>
-											</nav>
-										</div>	
+														</li>
+													</ul>
+												</nav>
+											</div>
+										</div>
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
-				</div> 			
-			</div>
-		</div> 
-	</div> 
-</div> 
-
-
-
-
-<!-- MOBILE MENU Logo AREA -->
-<div class="mobile_logo_area hidden-md hidden-lg">
-	<div class="container">
-		<div class="row">
-			<div class="col-sm-12">
-				<div class="mobile_menu_logo text-center">
-					<a href="index.html" title="smartdev">
-						<img src="assets/images/logo.png" alt="smartdev">
-					</a>		
 				</div>
 			</div>
 		</div>
 	</div>
-</div>
 
-<!-- MOBILE MENU AREA -->
-<div class="home-2 mbm hidden-md hidden-lg  header_area main-menu-area">
-	<div class="menu_area mobile-menu">
-		<nav class="smartdev_menu">						
-			<ul class="sub-menu">
-				<li class="menu-item-has-children">
-					<a href="#">首页</a>
-					<!-- <ul class="sub-menu">
+
+
+
+	<!-- MOBILE MENU Logo AREA -->
+	<div class="mobile_logo_area hidden-md hidden-lg">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12">
+					<div class="mobile_menu_logo text-center">
+						<a href="index.html" title="smartdev">
+							<img src="assets/images/logo.png" alt="smartdev">
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- MOBILE MENU AREA -->
+	<div class="home-2 mbm hidden-md hidden-lg  header_area main-menu-area">
+		<div class="menu_area mobile-menu">
+			<nav class="smartdev_menu">
+				<ul class="sub-menu">
+					<li class="menu-item-has-children">
+						<a href="index.html">首页</a>
+						<!-- <ul class="sub-menu">
 						<li><a href="index.html">Home Page</a></li>
 						<li><a href="index-2.html">Landing Page</a></li>
 						<li><a href="index-3.html">Home Banner Page</a></li>
 					</ul> -->
-				</li>
-			</ul>
-		</nav>	
-	</div>					
-</div>
-<!-- END MOBILE MENU AREA  -->
-
-
-
-
-<!-- breadcumb-area -->
-<div class="breadcumb-area">
-	<div class="container">				
-		<div class="row">
-			<div class="col-md-12 txtc  text-center ccase">
-				<div class="brpt">
-					<h2>Our Staff</h2>
-				</div>
-				<div class="breadcumb-inner">
-					<ul>
-						<li><a href="index.html">Home</a></li>
-						<li><i class="fas fa-angle-right"></i></li>
-						<li>Our Staff</li>
-					</ul>						
-				</div>
-			</div>
+					</li>
+				</ul>
+			</nav>
 		</div>
 	</div>
-</div>
+	<!-- END MOBILE MENU AREA  -->
 
 
 
 
-<!-- smartdev_team_area -->
-<div class="smartdev_team3_area team_bg">
-	<div class="container">	
-		<div class="row">
-			<div class="col-lg-12">
-				<div class="witr_section_title">
-					<div class="witr_section_title_inner text-center">
-						<h2>OUR MEMBER</h2>		
-						<h3>Discover Our Members</h3>		
+	<!-- breadcumb-area -->
+	<div class="breadcumb-area">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 txtc  text-center ccase">
+					<div class="brpt">
+						<h2>南宁市口腔医院滨湖院区介绍</h2>
+					</div>
+					<div class="breadcumb-inner">
+						<ul>
+							<!-- <li><a href="index.html">Home</a></li> -->
+							<!-- <li><i class="fas fa-angle-right"></i></li> -->
+							<li>医院介绍：南宁市口腔医疗中心(南宁市口腔医院)成立于1993年，是集医疗、教学、科研为一体的医疗机构，是南宁市城镇职工医疗保险定点医疗机构、区直医疗保险定点医疗机构。是南宁市卫生健康委的直属医疗卫生单位，南宁市级公立口腔专科医疗机构，南宁市教育局“双师型”教师培训基地，南宁市首批区、市医保定点医疗机构。“南宁市口腔医院建设项目”2024年成功获批国家公立医高质量发展示范项目子项目，目前共设两个院区——朝阳院区和滨湖院区,实行“一院两区”同质化管理,开设各类口腔专科门诊科室，配备放射科、消毒供应室、手术室等医技科室,开设口腔颌面外科住院部，配备现代化检查、检验和治疗设备,诊疗总面积约7500平方米，共设口腔综合治疗椅100余张，住院病床10余张。现有医护团队70余人，其中高级职称16人，中级职称25人,研究生以上学历12人。
+							</li>
+							<li>预约电话：19376373551</li>
+							<li>地址：南宁市青秀区滨湖路70号中鸿滨湖壹号2楼(地铁三号线滨湖路站C直达电梯出口)</li>
+						</ul>
 					</div>
 				</div>
 			</div>
 		</div>
-		<div class="witr_team_area_c post_team10_area team_top">
-			<div class="row post_team10_idteam ">
-				<!-- smartdev_team_01 -->
-				<div class="witr_all_mb_30 col-lg-12">
-					<div class="team-part all_color_team ">
-						<div class="witr_team_section">
-							<img src="assets/images/team-01.jpg" alt="">
+	</div>
+
+
+
+
+	<!-- smartdev_team_area -->
+	<div class="smartdev_team3_area team_bg">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="witr_section_title">
+						<div class="witr_section_title_inner text-center">
+							<!-- <h2>我们的医生</h2>		 -->
+							<h3>我们的医生</h3>
 						</div>
-						<div class="witr_team_content all_content_bg_color text-center">
-							<h5><a href="#">Dr. Rubel Islam </a></h5>
-							<span>Heart of Surgery </span>	
-						</div>
-					</div>								
+					</div>
 				</div>
-				<!-- smartdev_team_02 -->
-				<div class="witr_all_mb_30 col-lg-12">
-					<div class="team-part all_color_team ">
-						<div class="witr_team_section">
-							<img src="assets/images/team-02.jpg" alt="">
+			</div>
+			<div class="witr_team_area_c post_team10_area team_top">
+				<div class="row post_team10_idteam ">
+					<!-- smartdev_team_01 -->
+					<div class="witr_all_mb_30 col-lg-12">
+						<div class="team-part all_color_team ">
+							<div class="witr_team_section">
+								<img src="assets/images/doc/img1.png" alt="">
+							</div>
+							<div class="witr_team_content all_content_bg_color">
+								<h5><a href="#">杨 虹</a></h5>
+								<div><span>医师 中华口腔医学会会员</span></div>
+								<span>毕业于南方医科大学口腔医学专业，本科学历，曾在广西医科大学附属口腔医院完成口腔内科规范化培训。擅长儿童口腔健康管理与预防，成人及儿童的龋病、牙髓病、根尖周病、牙外伤的综合治疗，简单牙拔除等。</span>
+							</div>
 						</div>
-						<div class="witr_team_content all_content_bg_color text-center">
-							<h5><a href="#">Dr. Shamim Rana </a></h5>
-							<span>Brain Disability </span>	
+					</div>
+					<div class="witr_all_mb_30 col-lg-12">
+						<div class="team-part all_color_team ">
+							<div class="witr_team_section">
+								<img src="assets/images/doc/img2.png" alt="">
+							</div>
+							<div class="witr_team_content all_content_bg_color">
+								<h5><a href="#">曹扬扬</a></h5>
+								<div><span>医师 </span></div>
+								<span>毕业于湖南长沙医学院口腔医学专业，本科学历。擅长乳牙恒牙拔除、龋齿充填修复、牙体牙髓及根尖周病、牙周疾病等常见口腔内外科疾病的诊治。</span>
+							</div>
 						</div>
-					</div>	
-				</div>
-				<!-- smartdev_team_03 -->
-				<div class="witr_all_mb_30 col-lg-12">
-					<div class="team-part all_color_team ">
-						<div class="witr_team_section">
-							<img src="assets/images/team-03.jpg" alt="">
+					</div>
+					<div class="witr_all_mb_30 col-lg-12">
+						<div class="team-part all_color_team ">
+							<div class="witr_team_section">
+								<img src="assets/images/doc/img3.png" alt="">
+							</div>
+							<div class="witr_team_content all_content_bg_color">
+								<h5><a href="#">何国泉</a></h5>
+								<div><span>中共党员</span></div>
+								<span>毕业于桂林医科大学口腔医学专业，完成广西壮族自治区人民医院口腔颌面外科住院医师规范化培训。熟练掌握口腔临床常见疾病的诊断
+									与治疗，擅长牙体牙髓、根尖周病、牙周病的诊疗，各类阻生牙微创拔除、颌面部外伤、牙外伤及领面部感染的处理等，常见牙体缺损、牙列缺损的美学、固定、活动设计及修复。</span>
+							</div>
 						</div>
-						<div class="witr_team_content all_content_bg_color text-center">
-							<h5><a href="#">Dr. Mofizul Sek </a></h5>
-							<span>Emergency Services </span>	
+					</div>
+					<div class="witr_all_mb_30 col-lg-12">
+						<div class="team-part all_color_team ">
+							<div class="witr_team_section">
+								<img src="assets/images/doc/img4.png" alt="">
+							</div>
+							<div class="witr_team_content all_content_bg_color">
+								<h5><a href="#">黄建湖</a></h5>
+								<div><span>副主任医师 广西医学会显微外科学分会委员
+										广西口腔医学会口腔颌面外科专业委员会委员</span></div>
+								<span>毕业于右江民族医学院口腔医学系，本科学历，曾在上海市第九人民医院进修口腔颌面头颈肿瘤专业，以及在深圳市口腔医院修复种植中心进修学习；从事临床工作近20年，擅长口腔颌面外科和口腔种植领域的多种技术，如口腔颌面头颈肿瘤根治术、血管化游离皮瓣的转移修复、口腔种植修复等。</span>
+							</div>
 						</div>
-					</div>	
-				</div>
-				<!-- smartdev_team_04 -->
-				<div class="witr_all_mb_30 col-lg-12">
-					<div class="team-part all_color_team ">
-						<div class="witr_team_section">
-							<img src="assets/images/team-03.jpg" alt="">
+					</div>
+					<div class="witr_all_mb_30 col-lg-12">
+						<div class="team-part all_color_team ">
+							<div class="witr_team_section">
+								<img src="assets/images/doc/img5.png" alt="">
+							</div>
+							<div class="witr_team_content all_content_bg_color">
+								<h5><a href="#">黄麟茵</a></h5>
+								<div><span>医师 中共党员
+										中华口腔医学会口腔修复专委会及口腔激光医学专委会会员</span></div>
+								<span>毕业于桂林医科大学口腔医学专业，硕士研究生，曾在桂林医科大学完成口腔全科规范化培训。擅长牙周炎患者的牙周-种植修复联合治疗，各类固定义齿、活动义齿、前牙美学修复及龋病、根尖周病的多学科联合治疗。</span>
+							</div>
 						</div>
-						<div class="witr_team_content all_content_bg_color text-center">
-							<h5><a href="#">Dr. Mofizul Sek </a></h5>
-							<span>Emergency Services </span>	
+					</div>
+					<div class="witr_all_mb_30 col-lg-12">
+						<div class="team-part all_color_team ">
+							<div class="witr_team_section">
+								<img src="assets/images/doc/img6.png" alt="">
+							</div>
+							<div class="witr_team_content all_content_bg_color">
+								<h5><a href="#">黄文晔</a></h5>
+								<div><span>副主任医师 中共党员
+										南宁市“百名优秀医师”</span></div>
+								<span>毕业于右江民族医学院口腔医学系，研究生学历，曾于上海交通大学医学院附属第九人民医院进修学习；从事临床工作10余年，熟悉各种错颌畸形复杂病例的诊断及治疗，青少年错颌的早期干预及成人错颌的多学科联合治疗，擅长各类固定矫治技术及无托槽隐形矫治技术。</span>
+							</div>
 						</div>
-					</div>	
+					</div>
+					<div class="witr_all_mb_30 col-lg-12">
+						<div class="team-part all_color_team ">
+							<div class="witr_team_section">
+								<img src="assets/images/doc/img7.png" alt="">
+							</div>
+							<div class="witr_team_content all_content_bg_color">
+								<h5><a href="#">蓝曼珊</a></h5>
+								<div><span>医师 中共党员 </span></div>
+								<span>毕业于广西中医药大学口腔医学专业，曾于广西医科大学附属口腔医院进修。曾在三甲医院从事口腔临床工作数年。擅长牙体缺损、龋病的微创美学修复，如嵌体、贴面、全冠、前牙美学树脂充填修复术;擅长牙列缺损及缺失的固定修复及活动义齿修复；显微镜下疑难根管、根尖疾病、儿童牙体牙髓疾病的综合治疗，各类复杂牙阻生牙的拔除，牙周疾病的序列治疗。</span>
+							</div>
+						</div>
+					</div>
+					<div class="witr_all_mb_30 col-lg-12">
+						<div class="team-part all_color_team ">
+							<div class="witr_team_section">
+								<img src="assets/images/doc/img8.png" alt="">
+							</div>
+							<div class="witr_team_content all_content_bg_color">
+								<h5><a href="#">李翠婷</a></h5>
+								<div><span>副主任医师 广西医学会口腔正畸专业委员会青年委员
+										中华口腔医学会会员</span></div>
+								<span>毕业于右江民族医学院口腔医学系，本科学历，曾在四川大学华西口腔医学院正畸科进修学习；从事临床工作近20年，擅长青少年及成人的各类错颌畸形的治疗，尤其擅长牙列拥挤、双颌前突、反合等疾病的诊治。在数字化透明牙套隐形矫治、儿童早期矫治、正颌正畸联合治疗中的术前术后正畸治疗方面、龋病修补及治疗亦有丰富的临床经验。</span>
+							</div>
+						</div>
+					</div>
+					<div class="witr_all_mb_30 col-lg-12">
+						<div class="team-part all_color_team ">
+							<div class="witr_team_section">
+								<img src="assets/images/doc/img9.png" alt="">
+							</div>
+							<div class="witr_team_content all_content_bg_color">
+								<h5><a href="#">梁翛衍</a></h5>
+								<div><span>医师 中共党员
+										中华口腔医学会会员
+										中华口腔医学会舒适化治疗认证医师</span></div>
+								<span>毕业于广西医科大学口腔医学专业，研究生学历；专业擅长：
+									■ 舒适化治疗：笑气镇静/STA无痛注射技术
+									■ 牙槽外科手术：复杂阻生牙微创拔除、骨增量技术
+									■ 前牙美学修复：DSD数字化微笑设计
+									■ 儿童舒适化诊疗：行为诱导+无痛技术，龋病/牙髓病一站式干预
+									■ 外科并发症处理：干槽症防治、术后加速康复技术 </span>
+							</div>
+						</div>
+					</div>
+					<div class="witr_all_mb_30 col-lg-12">
+						<div class="team-part all_color_team ">
+							<div class="witr_team_section">
+								<img src="assets/images/doc/img10.png" alt="">
+							</div>
+							<div class="witr_team_content all_content_bg_color">
+								<h5><a href="#">刘 桑</a></h5>
+								<div><span>副主任医师 中华口腔医学会牙周专业委员</span></div>
+								<span>毕业于广西医科大学口腔医学院口腔医学专业，研究生学历，擅长各类龋病、牙髓病、儿童牙病、牙周病的治疗及各类复杂牙的拔除；显微镜下的疑难根管治疗；在龋病的微创美学、根管治疗、儿童牙病和牙周系统治疗方面具有丰富的临床经验。</span>
+							</div>
+						</div>
+					</div>
+					<div class="witr_all_mb_30 col-lg-12">
+						<div class="team-part all_color_team ">
+							<div class="witr_team_section">
+								<img src="assets/images/doc/img11.png" alt="">
+							</div>
+							<div class="witr_team_content all_content_bg_color">
+								<h5><a href="#">刘珊妤</a></h5>
+								<div><span>医师 中华口腔医学会会员</span></div>
+								<span>毕业于广西中医药大学口腔医学专业，本科学历，曾在广西医科大学附属口腔医院正畸进修。擅长各类复杂牙、阻生牙的微创拔除，熟悉各项牙体牙髓病，牙体缺损各类修复，擅长错合畸形复杂病例诊断及治疗，各类固定矫治及隐形矫治技术。</span>
+							</div>
+						</div>
+					</div>
+					<div class="witr_all_mb_30 col-lg-12">
+						<div class="team-part all_color_team ">
+							<div class="witr_team_section">
+								<img src="assets/images/doc/img12.png" alt="">
+							</div>
+							<div class="witr_team_content all_content_bg_color">
+								<h5><a href="#">唐艳玲</a></h5>
+								<div><span>医师 中共党员
+										中华口腔医学会会员</span></div>
+								<span>毕业于广西中医学院口腔医学专业，大学本科学历，从事口腔临床工作十五余年，曾于四川大学华西口腔医院修复科进修学习，擅长口腔疾病的诊断和各类固定及活动义齿的设计与修复，在美学及微创修复（瓷贴面、瓷嵌体）方面有独特的见解。</span>
+							</div>
+						</div>
+					</div>
+					<div class="witr_all_mb_30 col-lg-12">
+						<div class="team-part all_color_team ">
+							<div class="witr_team_section">
+								<img src="assets/images/doc/img13.png" alt="">
+							</div>
+							<div class="witr_team_content all_content_bg_color">
+								<h5><a href="#">韦叶子</a></h5>
+								<div><span>医师 </span></div>
+								<span>毕业于广西医科大学口腔医学院口腔医学专业，本科学历，完成广西壮族自治区人民医院规范化培训。对口腔各类常见病、多发病能熟练诊治，擅长各类龋病、牙髓病、根尖周疾病的诊断和治疗、牙齿美白、前牙美容树脂修复、各种复杂牙拔除、颌面部外伤清创缝合及各类牙体缺损修复等治疗。</span>
+							</div>
+						</div>
+					</div>
+					<div class="witr_all_mb_30 col-lg-12">
+						<div class="team-part all_color_team ">
+							<div class="witr_team_section">
+								<img src="assets/images/doc/img14.png" alt="">
+							</div>
+							<div class="witr_team_content all_content_bg_color">
+								<h5><a href="#">徐文强</a></h5>
+								<div><span>副主任医师 中共党员
+										中国口腔医学技术分委会委员</span></div>
+								<span>毕业于广西医科大学口腔医学系，研究生学历，曾获南宁市卫生系统优秀共产党员、先锋示范医疗卫生标兵、南宁市先锋示范岗等荣誉称号。从事口腔修复临床工作二十余年，擅长各类牙体缺损、牙列缺损、缺失的诊断和治疗。对前牙及微创(瓷贴面、瓷嵌体)美学修复、种植牙修复、咬合重建、复杂病例修复设计治疗有丰富的临床经验。</span>
+							</div>
+						</div>
+					</div>
+					<div class="witr_all_mb_30 col-lg-12">
+						<div class="team-part all_color_team ">
+							<div class="witr_team_section">
+								<img src="assets/images/doc/img15.png" alt="">
+							</div>
+							<div class="witr_team_content all_content_bg_color">
+								<h5><a href="#">薛 睿</a></h5>
+								<div><span>医师 中共党员</span></div>
+								<span>毕业于广西医科大学口腔医学院口腔颌面外科专业，硕士学位，研究生学历。于广西医科大学附属口腔医院完成住院医师规范化培训。擅长各类复杂牙、阻生牙的微创拔除，面部外伤美容缝合，根尖囊肿开窗及刮治术等。在各类牙体牙髓、牙周疾病的诊断及治疗中积累了丰富的临床经验。</span>
+							</div>
+						</div>
+					</div>
+					<div class="witr_all_mb_30 col-lg-12">
+						<div class="team-part all_color_team ">
+							<div class="witr_team_section">
+								<img src="assets/images/doc/img16.png" alt="">
+							</div>
+							<div class="witr_team_content all_content_bg_color">
+								<h5><a href="#">钟佩纯</a></h5>
+								<div><span>医师 中共党员</span></div>
+								<span>毕业于广西医科大学口腔医学专业，本科学历，在广西医科大学附属口腔医院正畸科规培；熟悉各种错颌畸形复杂病例的诊断及治疗，青少年错颌的早期干预及成人错颌畸形治疗，擅长各类固定矫治技术及无托槽隐形矫治技术，龋病、牙髓病、根尖周疾病、牙周疾病的诊断和治疗以及牙齿美白、前牙美学树脂修复等。</span>
+							</div>
+						</div>
+					</div>
+
 				</div>
 			</div>
 		</div>
 	</div>
-</div>
 
-	
-<!-- witrfm_footer_area -->
-<div class="witrfm_area" style="display: none;">
-	<div class="footer-middle">  
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-3 col-md-6 col-sm-12">
-					<div class="widget widget_smartdev_description_widget">				
-						<div class="smartdev-description-area">
-							<a href="#"><img src="assets/images/logo2.png" alt=""></a>
-							 <p>Nemo enim ipsam voluptate quia  voluptas sit aspernatur aut odit aut fugit, sed quia magni this dolores eos qui ratione .</p>
-							 <div class="social-icons">
-								<a href="#"><i class="fa fa-facebook-f"></i></a>
-								<a href="#"><i class="fab fa-google-plus-g"></i></a>
-								<a href="#"><i class="fab fa-twitter"></i></a>
-								<a href="#" ><i class="fas fa-rss"></i></a>
-								<a href="#"><i class="fab fa-linkedin"></i></a>
+
+	<!-- witrfm_footer_area -->
+	<div class="witrfm_area" style="display: none;">
+		<div class="footer-middle">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-3 col-md-6 col-sm-12">
+						<div class="widget widget_smartdev_description_widget">
+							<div class="smartdev-description-area">
+								<a href="#"><img src="assets/images/logo2.png" alt=""></a>
+								<p>Nemo enim ipsam voluptate quia voluptas sit aspernatur aut odit aut fugit, sed quia
+									magni this dolores eos qui ratione .</p>
+								<div class="social-icons">
+									<a href="#"><i class="fa fa-facebook-f"></i></a>
+									<a href="#"><i class="fab fa-google-plus-g"></i></a>
+									<a href="#"><i class="fab fa-twitter"></i></a>
+									<a href="#"><i class="fas fa-rss"></i></a>
+									<a href="#"><i class="fab fa-linkedin"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 col-sm-12">
+						<div class="widget widget_nav_menu">
+							<h2 class="widget-title">Quick Links</h2>
+							<div class="menu-help-link-container">
+								<ul class="menu">
+									<li><a href="#">– Customers Services</a></li>
+									<li><a href="#">– Department Doctor</a></li>
+									<li><a href="#">– About Our Company</a></li>
+									<li><a href="#">– Medical Service</a></li>
+									<li><a href="#">– Make An Appointment </a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 col-sm-12">
+						<div class="widget about_us">
+							<h2 class="widget-title">Our Contacts</h2>
+							<div class="about-footer">
+								<div class="footer-widget address">
+									<div class="footer-logo"></div>
+									<div class="footer-address">
+										<div class="footer_s_inner">
+											<div class="footer-sociala-icon">
+												<i class="fa fa-map-marker"></i>
+											</div>
+											<div class="footer-sociala-info">
+												<p>Adress: 21 Division St, Rangpur, RS 101215, RMS</p>
+											</div>
+										</div>
+										<div class="footer_s_inner">
+											<div class="footer-sociala-icon">
+												<i class="fa fa-phone"></i>
+											</div>
+											<div class="footer-sociala-info">
+												<p>Phone: +06544451100<br> Fax: +(03)1548656845</p>
+											</div>
+										</div>
+										<div class="footer_s_inner">
+											<div class="footer-sociala-icon">
+												<i class="fa fa-globe"></i>
+											</div>
+											<div class="footer-sociala-info">
+												<p>Email: example@example.com Website: yourwebsite.com</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-12 col-md-6  col-lg-3 last">
+						<div class="widget_text widget widget_custom_html">
+							<h2 class="widget-title">Working Hours</h2>
+							<div class="textwidget custom-html-widget">
+								<div class="witr_table">
+									<div class="witr_sub_table">
+										<span>Tuesday - Friday</span>
+										<span>08:00 - 20:00</span>
+									</div>
+									<div class="witr_sub_table">
+										<span>Saturday</span>
+										<span>09:00 - 18:00</span>
+									</div>
+									<div class="witr_sub_table">
+										<span>Sunday</span>
+										<span>09:00 - 18:00</span>
+									</div>
+									<div class="witr_sub_table">
+										<span>Monday</span>
+										<span>09:00 - 18:00</span>
+									</div>
+									<div class="witr_sub_table">
+										<span>Emergency:</span>
+										<span> (+099) 020 768 69</span>
+									</div>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-3 col-md-6 col-sm-12">
-					<div class="widget widget_nav_menu">
-						<h2 class="widget-title">Quick Links</h2>
-						<div class="menu-help-link-container">
-							<ul  class="menu">
-								<li><a href="#">– Customers Services</a></li>
-								<li><a href="#">– Department Doctor</a></li>
-								<li><a href="#">– About Our Company</a></li>
-								<li><a href="#">– Medical Service</a></li>
-								<li><a href="#">– Make An Appointment	</a></li>
+			</div>
+		</div>
+		<div class="footer-bottom">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6 col-md-6  col-sm-12">
+						<div class="copy-right-text">
+							<p>Copyright &copy; all rights reserved. <a target="_blank"
+									href="https://www.mobanwang.com/" title="网站模板" class="text-white">网站模板</a></p>
+						</div>
+					</div>
+					<div class="col-lg-6 col-md-6  col-sm-12">
+						<div class="footer-menu">
+							<ul class="text-right">
+								<li><a href="#">Home</a></li>
+								<li><a href="#">About</a></li>
+								<li><a href="#">Contact</a></li>
 							</ul>
 						</div>
-					</div>	
-				</div>
-				<div class="col-lg-3 col-md-6 col-sm-12">
-					<div class="widget about_us">
-						<h2 class="widget-title">Our Contacts</h2>	
-						<div class="about-footer">
-							<div class="footer-widget address">
-								<div class="footer-logo"></div>
-								<div class="footer-address">
-									<div class="footer_s_inner"> 
-										<div class="footer-sociala-icon">
-											<i class="fa fa-map-marker"></i>
-										</div>									
-										<div class="footer-sociala-info">				
-											<p>Adress: 21 Division St, Rangpur,  RS 101215, RMS</p>
-										</div> 
-									</div> 
-									<div class="footer_s_inner"> 
-										<div class="footer-sociala-icon">
-											<i class="fa fa-phone"></i>
-										</div> 									
-										<div class="footer-sociala-info">   
-												<p>Phone: +06544451100<br> Fax: +(03)1548656845</p>
-										</div>
-									</div>
-									<div class="footer_s_inner"> 
-										<div class="footer-sociala-icon"> 
-											<i class="fa fa-globe"></i>
-										</div> 
-										<div class="footer-sociala-info">  
-											<p>Email: example@example.com  Website: yourwebsite.com</p>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>	
-					</div>	
-				</div>
-				<div class="col-sm-12 col-md-6  col-lg-3 last">
-					<div class="widget_text widget widget_custom_html">
-						<h2 class="widget-title">Working Hours</h2>
-						<div class="textwidget custom-html-widget">
-							<div class="witr_table">
-								<div class="witr_sub_table">
-									<span>Tuesday - Friday</span>
-									<span>08:00 - 20:00</span>
-								</div>
-								<div class="witr_sub_table">	
-									<span>Saturday</span>
-									<span>09:00 - 18:00</span>
-								</div>		
-								<div class="witr_sub_table">		
-									<span>Sunday</span>
-									<span>09:00 - 18:00</span>
-								</div>
-								<div class="witr_sub_table">		
-									<span>Monday</span>
-									<span>09:00 - 18:00</span>
-								</div>
-								<div class="witr_sub_table">		
-									<span>Emergency:</span>
-									<span> (+099) 020 768 69</span>
-								</div>
-							</div>
-						</div>
-					</div>				
-				</div>
-			</div>	
-		</div>	
-	</div>	
-	<div class="footer-bottom">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-6 col-md-6  col-sm-12">
-					<div class="copy-right-text">
-						<p>Copyright &copy; all rights reserved. <a target="_blank" href="https://www.mobanwang.com/" title="网站模板" class="text-white">网站模板</a></p>
-					</div>
-				</div>
-				<div class="col-lg-6 col-md-6  col-sm-12">				
-					<div class="footer-menu">
-						<ul class="text-right">
-							<li><a href="#">Home</a></li>
-							<li><a href="#">About</a></li>
-							<li><a href="#">Contact</a></li>
-						</ul> 				
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-</div>
 
 
-  	
+	<!-- 悬浮按钮容器 -->
+	<div class="contact-btn-container">
+		<!-- 主按钮 - 使用a标签确保可点击 -->
+		<a href="tel:15972989614" class="contact-btn">
+			预约
+		</a>
+	</div>
 
 
 
-        <!-- Include All JS -->
-        <script src="assets/js/vendor/jquery-3.5.1.min.js"></script>
-        <script src="assets/js/bootstrap.min.js"></script>
-        <script src="assets/js/isotope.pkgd.min.js"></script>
-        <!-- <script src="assets/js/owl.carousel.min.js"></script> -->
-        <!-- <script src="assets/js/jquery.nivo.slider.pack.js"></script> -->
-        <script src="assets/js/slick.min.js"></script>
-        <script src="assets/js/imagesloaded.pkgd.min.js"></script>
-        <script src="venobox/venobox.min.js"></script>
-        <script src="assets/js/jquery.appear.js"></script>
-        <script src="assets/js/jquery.knob.js"></script>
-        <!-- <script src="assets/js/BeerSlider.js"></script> -->
-        <script src="assets/js/theme-pluginjs.js"></script>
-        <script src="assets/js/jquery.meanmenu.js"></script>
-        <script src="assets/js/ajax-mail.js"></script>		
-        <script src="assets/js/theme.js"></script>
-	
-	</body>
+
+
+
+	<!-- Include All JS -->
+	<script src="assets/js/vendor/jquery-3.5.1.min.js"></script>
+	<script src="assets/js/bootstrap.min.js"></script>
+	<script src="assets/js/isotope.pkgd.min.js"></script>
+	<!-- <script src="assets/js/owl.carousel.min.js"></script> -->
+	<!-- <script src="assets/js/jquery.nivo.slider.pack.js"></script> -->
+	<script src="assets/js/slick.min.js"></script>
+	<script src="assets/js/imagesloaded.pkgd.min.js"></script>
+	<script src="venobox/venobox.min.js"></script>
+	<script src="assets/js/jquery.appear.js"></script>
+	<script src="assets/js/jquery.knob.js"></script>
+	<!-- <script src="assets/js/BeerSlider.js"></script> -->
+	<script src="assets/js/theme-pluginjs.js"></script>
+	<script src="assets/js/jquery.meanmenu.js"></script>
+	<script src="assets/js/ajax-mail.js"></script>
+	<script src="assets/js/theme.js"></script>
+
+</body>
+
 </html>
