@@ -4,7 +4,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
-	<title>预约挂号平台</title>
+	<title>桂科医联保</title>
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- Favicon Icon -->
@@ -91,12 +91,36 @@
 			background: #3367d6;
 			transform: scale(1.1);
 		}
+
+		.hide {
+			display: none !important;
+		}
+		.tabs{
+			padding: 20px;
+			display: flex;
+		}
+		.tabs .tab{
+			padding: 20px;
+			font-size: 23px;
+			color: #222;
+			border-radius: 4px;
+		}
+		.tabs .tab.act{
+			background-color: #3da3d4;
+			color: #fff;
+		}
+		.smartdev_team3_area{
+			padding-top: 20px;
+		}
+		.team_bg{
+			display: none;
+		}
 	</style>
 
 </head>
 
 <body>
-	<div class="em40_header_area_main ">
+	<div class="em40_header_area_main hide" >
 		<div class="tx_top2_relative">
 			<div class="">
 				<div class="tx_relative_m">
@@ -146,7 +170,7 @@
 
 
 	<!-- MOBILE MENU Logo AREA -->
-	<div class="mobile_logo_area hidden-md hidden-lg">
+	<div class="mobile_logo_area hidden-md hidden-lg hide">
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-12">
@@ -161,7 +185,7 @@
 	</div>
 
 	<!-- MOBILE MENU AREA -->
-	<div class="home-2 mbm hidden-md hidden-lg  header_area main-menu-area">
+	<div class="home-2 mbm hidden-md hidden-lg  header_area main-menu-area hide">
 		<div class="menu_area mobile-menu">
 			<nav class="smartdev_menu">
 				<ul class="sub-menu">
@@ -180,10 +204,15 @@
 	<!-- END MOBILE MENU AREA  -->
 
 
+	<!-- tab切换 -->
+	 <div class="tabs tabs-hook">
+		<div class="tab act">医院详情</div>
+		<div class="tab">我们的医生</div>
+	 </div>
 
 
 	<!-- breadcumb-area -->
-	<div class="breadcumb-area">
+	<div class="breadcumb-area part-content">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 txtc  text-center ccase">
@@ -196,7 +225,7 @@
 							<!-- <li><i class="fas fa-angle-right"></i></li> -->
 							<li>医院介绍：南宁市口腔医疗中心(南宁市口腔医院)成立于1993年，是集医疗、教学、科研为一体的医疗机构，是南宁市城镇职工医疗保险定点医疗机构、区直医疗保险定点医疗机构。是南宁市卫生健康委的直属医疗卫生单位，南宁市级公立口腔专科医疗机构，南宁市教育局“双师型”教师培训基地，南宁市首批区、市医保定点医疗机构。“南宁市口腔医院建设项目”2024年成功获批国家公立医高质量发展示范项目子项目，目前共设两个院区——朝阳院区和滨湖院区,实行“一院两区”同质化管理,开设各类口腔专科门诊科室，配备放射科、消毒供应室、手术室等医技科室,开设口腔颌面外科住院部，配备现代化检查、检验和治疗设备,诊疗总面积约7500平方米，共设口腔综合治疗椅100余张，住院病床10余张。现有医护团队70余人，其中高级职称16人，中级职称25人,研究生以上学历12人。
 							</li>
-							<li>预约电话：19376373551</li>
+							<li> 预约电话：<a href="tel:19376373551">19376373551</a> </li>
 							<li>地址：南宁市青秀区滨湖路70号中鸿滨湖壹号2楼(地铁三号线滨湖路站C直达电梯出口)</li>
 						</ul>
 					</div>
@@ -209,7 +238,7 @@
 
 
 	<!-- smartdev_team_area -->
-	<div class="smartdev_team3_area team_bg">
+	<div class="smartdev_team3_area team_bg part-content">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12">
@@ -227,7 +256,7 @@
 					<div class="witr_all_mb_30 col-lg-12">
 						<div class="team-part all_color_team ">
 							<div class="witr_team_section">
-								<img src="assets/images/doc/img1.png" alt="">
+								<img src="assets/images/doc/img1.webp" alt="">
 							</div>
 							<div class="witr_team_content all_content_bg_color">
 								<h5><a href="#">杨 虹</a></h5>
@@ -239,7 +268,7 @@
 					<div class="witr_all_mb_30 col-lg-12">
 						<div class="team-part all_color_team ">
 							<div class="witr_team_section">
-								<img src="assets/images/doc/img2.png" alt="">
+								<img src="assets/images/doc/img2.webp" alt="">
 							</div>
 							<div class="witr_team_content all_content_bg_color">
 								<h5><a href="#">曹扬扬</a></h5>
@@ -251,7 +280,7 @@
 					<div class="witr_all_mb_30 col-lg-12">
 						<div class="team-part all_color_team ">
 							<div class="witr_team_section">
-								<img src="assets/images/doc/img3.png" alt="">
+								<img src="assets/images/doc/img3.webp" alt="">
 							</div>
 							<div class="witr_team_content all_content_bg_color">
 								<h5><a href="#">何国泉</a></h5>
@@ -264,7 +293,7 @@
 					<div class="witr_all_mb_30 col-lg-12">
 						<div class="team-part all_color_team ">
 							<div class="witr_team_section">
-								<img src="assets/images/doc/img4.png" alt="">
+								<img src="assets/images/doc/img4.webp" alt="">
 							</div>
 							<div class="witr_team_content all_content_bg_color">
 								<h5><a href="#">黄建湖</a></h5>
@@ -277,7 +306,7 @@
 					<div class="witr_all_mb_30 col-lg-12">
 						<div class="team-part all_color_team ">
 							<div class="witr_team_section">
-								<img src="assets/images/doc/img5.png" alt="">
+								<img src="assets/images/doc/img5.webp" alt="">
 							</div>
 							<div class="witr_team_content all_content_bg_color">
 								<h5><a href="#">黄麟茵</a></h5>
@@ -290,7 +319,7 @@
 					<div class="witr_all_mb_30 col-lg-12">
 						<div class="team-part all_color_team ">
 							<div class="witr_team_section">
-								<img src="assets/images/doc/img6.png" alt="">
+								<img src="assets/images/doc/img6.webp" alt="">
 							</div>
 							<div class="witr_team_content all_content_bg_color">
 								<h5><a href="#">黄文晔</a></h5>
@@ -303,7 +332,7 @@
 					<div class="witr_all_mb_30 col-lg-12">
 						<div class="team-part all_color_team ">
 							<div class="witr_team_section">
-								<img src="assets/images/doc/img7.png" alt="">
+								<img src="assets/images/doc/img7.webp" alt="">
 							</div>
 							<div class="witr_team_content all_content_bg_color">
 								<h5><a href="#">蓝曼珊</a></h5>
@@ -315,7 +344,7 @@
 					<div class="witr_all_mb_30 col-lg-12">
 						<div class="team-part all_color_team ">
 							<div class="witr_team_section">
-								<img src="assets/images/doc/img8.png" alt="">
+								<img src="assets/images/doc/img8.webp" alt="">
 							</div>
 							<div class="witr_team_content all_content_bg_color">
 								<h5><a href="#">李翠婷</a></h5>
@@ -328,7 +357,7 @@
 					<div class="witr_all_mb_30 col-lg-12">
 						<div class="team-part all_color_team ">
 							<div class="witr_team_section">
-								<img src="assets/images/doc/img9.png" alt="">
+								<img src="assets/images/doc/img9.webp" alt="">
 							</div>
 							<div class="witr_team_content all_content_bg_color">
 								<h5><a href="#">梁翛衍</a></h5>
@@ -347,7 +376,7 @@
 					<div class="witr_all_mb_30 col-lg-12">
 						<div class="team-part all_color_team ">
 							<div class="witr_team_section">
-								<img src="assets/images/doc/img10.png" alt="">
+								<img src="assets/images/doc/img10.webp" alt="">
 							</div>
 							<div class="witr_team_content all_content_bg_color">
 								<h5><a href="#">刘 桑</a></h5>
@@ -359,7 +388,7 @@
 					<div class="witr_all_mb_30 col-lg-12">
 						<div class="team-part all_color_team ">
 							<div class="witr_team_section">
-								<img src="assets/images/doc/img11.png" alt="">
+								<img src="assets/images/doc/img11.webp" alt="">
 							</div>
 							<div class="witr_team_content all_content_bg_color">
 								<h5><a href="#">刘珊妤</a></h5>
@@ -371,7 +400,7 @@
 					<div class="witr_all_mb_30 col-lg-12">
 						<div class="team-part all_color_team ">
 							<div class="witr_team_section">
-								<img src="assets/images/doc/img12.png" alt="">
+								<img src="assets/images/doc/img12.webp" alt="">
 							</div>
 							<div class="witr_team_content all_content_bg_color">
 								<h5><a href="#">唐艳玲</a></h5>
@@ -384,7 +413,7 @@
 					<div class="witr_all_mb_30 col-lg-12">
 						<div class="team-part all_color_team ">
 							<div class="witr_team_section">
-								<img src="assets/images/doc/img13.png" alt="">
+								<img src="assets/images/doc/img13.webp" alt="">
 							</div>
 							<div class="witr_team_content all_content_bg_color">
 								<h5><a href="#">韦叶子</a></h5>
@@ -396,7 +425,7 @@
 					<div class="witr_all_mb_30 col-lg-12">
 						<div class="team-part all_color_team ">
 							<div class="witr_team_section">
-								<img src="assets/images/doc/img14.png" alt="">
+								<img src="assets/images/doc/img14.webp" alt="">
 							</div>
 							<div class="witr_team_content all_content_bg_color">
 								<h5><a href="#">徐文强</a></h5>
@@ -409,7 +438,7 @@
 					<div class="witr_all_mb_30 col-lg-12">
 						<div class="team-part all_color_team ">
 							<div class="witr_team_section">
-								<img src="assets/images/doc/img15.png" alt="">
+								<img src="assets/images/doc/img15.webp" alt="">
 							</div>
 							<div class="witr_team_content all_content_bg_color">
 								<h5><a href="#">薛 睿</a></h5>
@@ -421,7 +450,7 @@
 					<div class="witr_all_mb_30 col-lg-12">
 						<div class="team-part all_color_team ">
 							<div class="witr_team_section">
-								<img src="assets/images/doc/img16.png" alt="">
+								<img src="assets/images/doc/img16.webp" alt="">
 							</div>
 							<div class="witr_team_content all_content_bg_color">
 								<h5><a href="#">钟佩纯</a></h5>
@@ -593,6 +622,17 @@
 	<script src="assets/js/jquery.meanmenu.js"></script>
 	<script src="assets/js/ajax-mail.js"></script>
 	<script src="assets/js/theme.js"></script>
+	<script>
+		$('.tabs-hook .tab').on('click',function(){
+			var index  = $(this).index()
+			console.log('index: ', index);
+			$(this).addClass('act').siblings().removeClass('act')
+			$('.part-content').each(function(){
+				$(this).hide()
+			})
+			$($('.tabs-hook').nextAll('.part-content')[index]).show()
+		})
+	</script>
 
 </body>
 
